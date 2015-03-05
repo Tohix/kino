@@ -7,7 +7,7 @@ use yii\web\Controller;
 class IndexController extends Controller
 {
     public function actionIndex()
-    {die('sdfs00');
+    {
         return $this->render('index');
     }
 }
